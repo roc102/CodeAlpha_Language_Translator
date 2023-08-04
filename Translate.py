@@ -15,7 +15,7 @@ def translate(text, source_lang, dest_lang):
     return translated.text
 
 def main():
-    global text_entry, translation_label, source_lang_var, dest_lang_var  # Declare variables as global
+    global text_entry, translation_label, source_lang_var, dest_lang_var  
 
     root = tk.Tk()
     root.title("Language Translator")
